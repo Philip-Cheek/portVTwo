@@ -1,0 +1,5 @@
+node_modules/
+src/assets/
+src/favicon.ico
+src/*/*.js
+src/font-awesome-4.7.0
