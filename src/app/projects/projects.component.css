@@ -1,0 +1,218 @@
+#projectContainer{
+  padding-bottom:3em;
+  height:100%;
+  margin-left:1.5em;
+  padding-top:1.5em;
+  overflow-y:scroll;
+  margin-bottom:1em !important;
+  padding-bottom:1em !important;
+}
+  .projectList{
+    margin-bottom:1.5em;
+    margin-right: .38em;
+    max-width:50em;
+  }
+
+  .projectUnder{
+    -webkit-transform: translateZ(0);
+   -moz-transform: translateZ(0);
+   -ms-transform: translateZ(0);
+   -o-transform: translateZ(0);
+   transform: translateZ(0);
+    overflow: hidden;
+    margin-left:2.5em;
+    background:rgba(255,255,255,.5);
+    padding:0em;
+    max-height: 0;
+    margin-top:-1.5em;
+    width:calc(100% - 5.5em);
+    z-index:0;
+    pointer-events:none;
+    opacity:0;
+    border-radius: .35em;
+  }
+
+  #border{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:0em;
+    background:rgba(0,0,0,.25);
+    transition: width 0s;
+
+  }
+
+  .projectUnder.underOpen #border{
+    width:1.2em;
+    transition: width .25s;
+  }
+
+
+  .projectUnder.underOpen{
+    max-height: 300vh;
+    pointer-events:initial;
+    margin-top:0em;
+    opacity:1;
+    padding:1em;
+    padding-left:2em;
+
+
+  } 
+    .infoLink{
+      overflow: hidden;
+      float:right;
+      vertical-align: top;
+      background: rgba(34, 49, 63, 0.2);
+      padding:.3em;
+      color:#22313F;
+      font-family: 'Comfortaa', cursive;
+      border-radius: .35em;
+      margin-bottom: .8em;
+      width: 13em;
+      margin-left:1em;
+    }
+
+    .infoLink a.pSource{
+      display: block;
+      color:#22313F;
+      font-size:1.2em;
+      background: rgba(34, 49, 63, 0.35);
+      border-radius: .08em;
+      margin: .3em auto;
+      padding:.25em;
+      width:100%;
+      max-width:8.5em;
+    }
+
+    .infoLink img{
+      width:100%;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .infoLink a{
+      text-decoration: none;
+    }
+
+
+    .infoLink ul{
+      margin-left: 1em;
+    }
+
+    .infoLink #left{
+      margin-left: 8%;
+    }
+
+    .infoLink #left p{
+      margin-top:.3em;
+      margin-bottom: .3em
+    }
+  #projectContainer{
+    height:100%;
+    margin-left:1.5em;
+    padding-top:1.5em;
+    overflow-y:scroll;
+    margin-bottom:1em !important;
+    padding-bottom:1em !important;
+  }
+
+  .bSpacer{
+    height:2em;
+    width:90%;
+  }
+
+    a.pTitle{
+      font-family: 'Comfortaa', cursive;
+      font-size:2.5em;
+      color:#22313F;
+      margin-bottom:1em;
+      padding-left: -1em;
+    }
+
+  .iText{
+    margin-top: -.5em;
+    max-height:0em;
+    opacity:0;
+    transition: opacity 1s ease, margin-top .2s ease;
+    display:none;
+  }
+
+  .reveal{
+    display:initial !important;
+    opacity: 100;
+    margin-top:.5em;
+    display: block;
+    max-height:1000em;
+  }
+
+  .tech img{
+    width: 30%;
+  }
+
+
+p.pTitle{
+   -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  max-width:15em;
+  min-width:1em;
+  font-family: 'Comfortaa', cursive;
+  font-size:2.5em;
+  color:#22313F;
+  margin:.3em;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+p.pTitle:hover{
+  cursor:pointer;
+}
+
+p.open i{
+   -webkit-transform:rotate(90deg);
+          transform:rotate(90deg);
+}
+
+p.open span {
+  text-decoration: underline;
+}
+
+a{
+  cursor:pointer;
+}
+
+.fa-chevron-circle-right, fa-chevron-right{
+     -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+    display:inline-block;
+    -webkit-transform:(0deg);
+            transform:(0deg);
+        transition: transform .2s;
+
+  }
+
+  .bodyText{
+    margin-top:1em;
+    font-family:Arial;
+    margin-bottom: 1em;
+  }
+
+  a.open i{
+   -webkit-transform:rotate(90deg);
+            transform:rotate(90deg);
+  }
+
+  a.open span{
+    text-decoration: underline;
+  }
+
+#projectContainer{
+  margin-left: 3em;
+}
+
+
+
